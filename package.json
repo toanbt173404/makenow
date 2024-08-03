@@ -1,0 +1,22 @@
+{
+  "name": "makenow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buy:devnet": "npx ts-node src/index.ts --network devnet",
+    "buy:mainnet": "npx ts-node src/index.ts --network mainnet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.26.0",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.2"
+  }
+}
